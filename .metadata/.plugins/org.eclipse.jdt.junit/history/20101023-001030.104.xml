@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testrun name="MyLocationTest" project="TrackMeTest" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.track.mylocation.test.MyLocationTest" time="1.751">
+    <testcase name="testActivityShowsUpTheButton" classname="com.track.mylocation.test.MyLocationTest" time="1.751"/>
+  </testsuite>
+</testrun>

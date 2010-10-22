@@ -1,4 +1,6 @@
-/bin/
+TrackMe/bin
+TrackMeTest/bin
+TrackMe/gen/com/track/mylocation/R.java
 .project
 .classpath
-.metadata
+

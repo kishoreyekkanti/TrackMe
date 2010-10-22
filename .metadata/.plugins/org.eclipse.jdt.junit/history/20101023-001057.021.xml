@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testrun name="MyLocationTest" project="TrackMeTest" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="android.test.suitebuilder.TestSuiteBuilder.FailedToCreateTests" time="0.088">
+    <testcase name="testSuiteConstructionFailed" classname="android.test.suitebuilder.TestSuiteBuilder.FailedToCreateTests" time="0.088">
+      <error>java.lang.RuntimeException: Exception during suite construction
+at android.test.suitebuilder.TestSuiteBuilder$FailedToCreateTests.testSuiteConstructionFailed(TestSuiteBuilder.java:239)
+at java.lang.reflect.Method.invokeNative(Native Method)
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:169)
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:154)
+at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:520)
+at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1447)
+Caused by: java.lang.NullPointerException: Method name must not be null.
+at java.lang.ClassCache.findMethodByName(ClassCache.java:297)
+at java.lang.Class.getMethod(Class.java:985)
+at android.test.suitebuilder.TestMethod.getAnnotation(TestMethod.java:60)
+at android.test.suitebuilder.annotation.HasMethodAnnotation.apply(HasMethodAnnotation.java:39)
+at android.test.suitebuilder.annotation.HasMethodAnnotation.apply(HasMethodAnnotation.java:30)
+at com.android.internal.util.Predicates$OrPredicate.apply(Predicates.java:106)
+at android.test.suitebuilder.annotation.HasAnnotation.apply(HasAnnotation.java:42)
+at android.test.suitebuilder.annotation.HasAnnotation.apply(HasAnnotation.java:31)
+at com.android.internal.util.Predicates$NotPredicate.apply(Predicates.java:122)
+at android.test.suitebuilder.TestSuiteBuilder.satisfiesAllPredicates(TestSuiteBuilder.java:254)
+at android.test.suitebuilder.TestSuiteBuilder.build(TestSuiteBuilder.java:190)
+at android.test.InstrumentationTestRunner.onCreate(InstrumentationTestRunner.java:373)
+at android.app.ActivityThread.handleBindApplication(ActivityThread.java:4218)
+at android.app.ActivityThread.access$3000(ActivityThread.java:125)
+at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2071)
+at android.os.Handler.dispatchMessage(Handler.java:99)
+at android.os.Looper.loop(Looper.java:123)
+at android.app.ActivityThread.main(ActivityThread.java:4627)
+at java.lang.reflect.Method.invokeNative(Native Method)
+at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:868)
+at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:626)
+at dalvik.system.NativeStart.main(Native Method)
+
+</error>
+    </testcase>
+  </testsuite>
+</testrun>

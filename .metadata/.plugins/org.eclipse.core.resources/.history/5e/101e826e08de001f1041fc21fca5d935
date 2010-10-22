@@ -1,0 +1,14 @@
+package com.track.mylocation.test;
+
+import android.test.ActivityInstrumentationTestCase2;
+
+import com.track.mylocation.MyLocation;
+
+public class MyLocationTest extends ActivityInstrumentationTestCase2<MyLocation>{
+
+	public MyLocationTest() {
+		super("com.track.mylocation.MyLocation",MyLocation.class);
+	}
+	
+
+}
